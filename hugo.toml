@@ -1,0 +1,9 @@
+baseURL = 'https://14maverick04.github.io/'
+languageCode = 'en-us'
+theme = 'anatole'
+enableEmoji = true
+
+[params]
+title = 'Mendax Scribere Blogs'
+author = "14maverick04"
+description = "Blogging with Hugo"
