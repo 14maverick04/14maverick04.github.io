@@ -4,6 +4,8 @@ theme = 'anatole'
 enableEmoji = true
 
 [params]
-title = 'Mendax Scribere Blogs'
-author = "14maverick04"
-description = "Blogging with Hugo"
+title = 'Deus ex Curiositas'
+author = 'mendax_scribere'
+description = 'Notes for myself'
+profilePicture = 'images/profile_pic.jpg'
+mainSections = ["blog"]
