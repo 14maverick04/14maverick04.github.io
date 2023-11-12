@@ -5,11 +5,33 @@ enableEmoji = true
 
 [params]
 author = 'mendax_scribere'
-contentratio = '0.75'
-copyright = 'mendax_scribere, 2023-{{ YEAR }}'
+contentratio = '0.70'
+copyright = 'mendax_scribere, 2020-{{ YEAR }}'
 doNotLoadAnimations = false
 title = 'Tryst with Curiosity'
 description = '"My Holy Curiosity"'
 profilePicture = 'images/profile_pic.jpg'
 mainSections = ["blog"]
 readMore = true
+hidesidebar = true
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "LinkedIn"
+url = "https://linkedin.com/in/jerinthomas1404"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "Github"
+url = "https://github.com/jerinthomas1404"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:jerinthomas1404@gmail.com"
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "X"
+url = "https://twitter.com/mendax_scribere"
+
