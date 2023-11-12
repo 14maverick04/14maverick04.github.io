@@ -4,8 +4,12 @@ theme = 'anatole'
 enableEmoji = true
 
 [params]
-title = 'Deus ex Curiositas'
 author = 'mendax_scribere'
-description = 'Notes for myself'
+contentratio = '0.75'
+copyright = 'mendax_scribere, 2023-{{ YEAR }}'
+doNotLoadAnimations = false
+title = 'Tryst with Curiosity'
+description = '"My Holy Curiosity"'
 profilePicture = 'images/profile_pic.jpg'
 mainSections = ["blog"]
+readMore = true
