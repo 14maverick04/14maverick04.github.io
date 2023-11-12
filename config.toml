@@ -11,7 +11,7 @@ doNotLoadAnimations = false
 title = 'Tryst with Curiosity'
 description = '"My Holy Curiosity"'
 profilePicture = 'images/profile_pic.jpg'
-mainSections = ["blog"]
+mainSections = [""]
 readMore = true
 hidesidebar = true
 
@@ -35,3 +35,5 @@ icon = "fab fa-twitter"
 title = "X"
 url = "https://twitter.com/mendax_scribere"
 
+[mermaid]
+enable = true
