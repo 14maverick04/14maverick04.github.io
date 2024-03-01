@@ -10,7 +10,7 @@ copyright = 'Jerin Thomas, 2020-{{ YEAR }}'
 description = '"Tryst with Curiosity"'
 doNotLoadAnimations = false
 profilePicture = 'images/profile_pic.jpg'
-mainSections = ["blog"]
+mainSections = ["home"]
 readMore = true
 customCss = ["css/styles.css"]
 indexDateFormat = "2006-01-02"
@@ -67,8 +67,15 @@ url = "https://twitter.com/mendax_scribere"
   parent = "shelf"
 
   [[menu.main]]
-  name = "Poem"
+  name = "Book"
   weight = 2
+  identifier = "book"
+  url = "/shelf/book/"
+  parent = "shelf"
+
+  [[menu.main]]
+  name = "Poem"
+  weight = 3
   identifier = "poem"
   url = "/shelf/poem/"
   parent = "shelf"
