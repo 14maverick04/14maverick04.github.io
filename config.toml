@@ -4,17 +4,18 @@ theme = 'anatole'
 enableEmoji = true
 
 [params]
-author = 'mendax_scribere'
+author = 'Jerin Thomas'
 contentratio = '0.70'
-copyright = 'mendax_scribere, 2020-{{ YEAR }}'
+copyright = 'Jerin Thomas, 2020-{{ YEAR }}'
+description = '"Tryst with Curiosity"'
 doNotLoadAnimations = false
-title = 'Tryst with Curiosity'
-description = '"My Holy Curiosity"'
 profilePicture = 'images/profile_pic.jpg'
 mainSections = ["blog"]
 readMore = true
-hidesidebar = true
 customCss = ["css/styles.css"]
+indexDateFormat = "2006-01-02"
+singleDateFormat = "2006-01-02"
+title = 'Jerin Thomas'
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
@@ -36,3 +37,53 @@ icon = "fab fa-twitter"
 title = "X"
 url = "https://twitter.com/mendax_scribere"
 
+## Menu items
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 1
+  url = "/"
+
+  [[menu.main]]
+  name = "Blog"
+  weight = 2
+  identifier = "blog"
+  url = "/blog/"
+
+
+  [[menu.main]]
+  name = "Shelf"
+  weight = 4
+  identifier = "shelf"
+  url = "/shelf/"
+
+  [[menu.main]]
+  name = "Whitepaper"
+  weight = 1
+  identifier = "white-paper"
+  url = "/shelf/white-paper/"
+  parent = "shelf"
+
+  [[menu.main]]
+  name = "Poem"
+  weight = 2
+  identifier = "poem"
+  url = "/shelf/poem/"
+  parent = "shelf"
+
+  [[menu.main]]
+  name = "Tags"
+  weight = 5
+  identifier = "tags"
+  url = "/tags/"
+
+  [[menu.main]]
+  name = "CV"
+  weight = 7
+  url = "https://drive.google.com/file/d/1lwjnUdZ742e6TKaGaycVriC2a3Rzzi_U/view?usp=sharing"
+
+[taxonomies]
+series = "series"
+tag = "tags"
