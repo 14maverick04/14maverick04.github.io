@@ -30,12 +30,8 @@ url = "https://github.com/jerinthomas1404"
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:jerinthomas1404@gmail.com"
+url = "mailto:jerinthomas1498@gmail.com"
 
-[[params.socialIcons]]
-icon = "fab fa-twitter"
-title = "X"
-url = "https://twitter.com/mendax_scribere"
 
 ## Menu items
 [menu]
