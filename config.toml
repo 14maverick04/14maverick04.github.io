@@ -2,20 +2,23 @@ baseURL = 'https://14maverick04.github.io/'
 languageCode = 'en-us'
 theme = 'anatole'
 enableEmoji = true
+enableRobotsTXT = true
 
 [params]
 author = 'Jerin Thomas'
-contentratio = '0.75'
+contentratio = '0.70'
+displayMode = 'dark'
 copyright = 'Jerin Thomas, 2020-{{ YEAR }}'
 description = '"Tryst with Curiosity"'
 doNotLoadAnimations = false
 profilePicture = 'images/profile.jpg'
-mainSections = ["blogs"]
+mainSections = [""]
 readMore = true
 customCss = ["css/styles.css"]
 indexDateFormat = "2006-01-02"
 singleDateFormat = "2006-01-02"
 title = 'Jerin Thomas'
+
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
@@ -37,9 +40,9 @@ url = "mailto:jerinthomas1498@gmail.com"
 [menu]
 
   [[menu.main]]
-  name = "Notes"
+  name = "Notables"
   identifier = "notes"
-  weight = 1
+  weight = 100
   url = "/note"
 
 
