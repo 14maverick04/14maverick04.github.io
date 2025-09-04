@@ -10,7 +10,7 @@ copyright = 'Jerin Thomas, 2020-{{ YEAR }}'
 description = '"Tryst with Curiosity"'
 doNotLoadAnimations = false
 profilePicture = 'images/profile.jpg'
-mainSections = ["home"]
+mainSections = ["blogs"]
 readMore = true
 customCss = ["css/styles.css"]
 indexDateFormat = "2006-01-02"
@@ -37,17 +37,11 @@ url = "mailto:jerinthomas1498@gmail.com"
 [menu]
 
   [[menu.main]]
-  name = "Thoughts"
-  identifier = "thoughts"
+  name = "Notes"
+  identifier = "notes"
   weight = 1
-  url = "/"
+  url = "/note"
 
-
-  [[menu.main]]
-  name = "Tags"
-  weight = 2
-  identifier = "tags"
-  url = "/tags/"
 
 [taxonomies]
 series = "series"
