@@ -6,14 +6,12 @@ enableRobotsTXT = true
 
 [params]
 author = 'Jerin Thomas'
-contentratio = '0.70'
-displayMode = 'dark'
+contentratio = '0.80'
 copyright = 'Jerin Thomas, 2020-{{ YEAR }}'
 description = '"Tryst with Curiosity"'
 doNotLoadAnimations = false
 profilePicture = 'images/profile.jpg'
 mainSections = [""]
-readMore = true
 customCss = ["css/styles.css"]
 indexDateFormat = "2006-01-02"
 singleDateFormat = "2006-01-02"
@@ -40,11 +38,22 @@ url = "mailto:jerinthomas1498@gmail.com"
 [menu]
 
   [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
   name = "Notables"
   identifier = "notes"
-  weight = 100
+  weight = 200
   url = "/note"
 
+  [[menu.main]]
+  name = "About Me"
+  identifier = "aboutme"
+  weight = 300
+  url = "/aboutme"
 
 [taxonomies]
 series = "series"
