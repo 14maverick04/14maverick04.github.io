@@ -19,7 +19,7 @@
   <meta charset="utf-8" />
 {{ with .Params.image }}
   {{ $img := resources.Get . }}
-  {{ $cropped := $img.Fill "520x270" }}
+  {{ $cropped := $img.Fit "1200x627"}}
   <meta property="og:image" content="{{ $cropped.Permalink }}">
 {{ end }}
   {{- hugo.Generator -}}
