@@ -17,9 +17,11 @@
 
   <!-- Meta -->
   <meta charset="utf-8" />
-  {{ with .Params.image }} <!-- support og image-->
-  <meta property="og:image" content="{{ . | absURL }}">
-  {{ end }}
+{{ with .Params.image }}
+  {{ $img := resources.Get . }}
+  {{ $cropped := $img.Fill "1200x630" }}
+  <meta property="og:image" content="{{ $cropped.Permalink }}">
+{{ end }}
   {{- hugo.Generator -}}
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="author" content="{{ .Site.Params.author }}" />
