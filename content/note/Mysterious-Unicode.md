@@ -2,6 +2,7 @@
 title = 'Mysterious Unicode'
 date = 2024-03-04T13:20:09-04:00
 draft = false
+image= '/images/profile.jpg'
 +++
 
 ## Core Principles
