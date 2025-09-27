@@ -61,3 +61,5 @@ image= '/images/profile.jpg'
 
 ## References
 [OG Blog - Joel on Software](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+
+[Tom Scott - Computerphile](https://www.youtube.com/watch?v=MijmeoH9LT4)
