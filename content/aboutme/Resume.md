@@ -6,11 +6,7 @@ draft: false
 description: "Public resume"
 ---
 
-Welcome to my public resume page! Below you'll find a summary and a link to view or download my full resume.
-
-## View or Download Resume
-
-[Click here to view/download my resume](https://drive.google.com/file/d/1BDxbBdT2WIg03uTLefYzU2tnkXu2c8i7/view?usp=sharing)
+[Click here to view/download my resume](https://drive.google.com/file/d/1CrZbG71lCuyxDfD6obtSpy4kn8kfClSP/view?usp=sharing)
 
 ---
 
