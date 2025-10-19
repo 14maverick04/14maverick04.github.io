@@ -6,7 +6,7 @@ draft: false
 description: "Public resume"
 ---
 
-[Click here to view/download my resume](https://drive.google.com/file/d/1CrZbG71lCuyxDfD6obtSpy4kn8kfClSP/view?usp=sharing)
+[Click here to view/download my resume](https://drive.google.com/file/d/1H1Blck78lfRkzTJrrRM137GYT0p2xE0w/view?usp=sharing)
 
 ---
 
