@@ -55,6 +55,13 @@ url = "mailto:jerinthomas1498@gmail.com"
   weight = 300
   url = "/aboutme/resume/"
 
+  [[menu.main]]
+  name = "Tags"
+  identifier = "tags"
+  weight = 400
+  url = "/tags/"
+
+
 [taxonomies]
 series = "series"
 tag = "tags"
