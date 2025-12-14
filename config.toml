@@ -53,7 +53,7 @@ url = "mailto:jerinthomas1498@gmail.com"
   name = "About Me"
   identifier = "aboutme"
   weight = 300
-  url = "/aboutme"
+  url = "/aboutme/resume/"
 
 [taxonomies]
 series = "series"
