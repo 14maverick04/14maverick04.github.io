@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <div
+    class="archive {{ with .Site.Params.doNotLoadAnimations }}
+      .
+    {{ else }}
+      animated fadeInDown
+    {{ end }}"
+  >
+    <ul class="archive__list">
+      {{ range .Data.Terms.Alphabetical }}
+        <li class="archive__list-item">
+          <a class="archive__list-title" href="{{ .Page.RelPermalink }}" title="{{ .Page.Title }}">{{ .Page.Title }}</a>
+          <div class="archive__list-date">{{ .Count }}</div>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}
