@@ -94,4 +94,18 @@
   <div class="pagination">
     {{ template "partials/pagination.html" . }}
   </div>
+  
+  <div
+    class="post {{ with .Site.Params.doNotLoadAnimations }}
+      .
+    {{ else }}
+      animated fadeInDown
+    {{ end }}"
+  >
+    <div class="post__content">
+      <h2>UMass Ring</h2>
+      <script id="umaring_js" src="https://umaring.mkr.cx/ring.js?id=jerin"></script>
+      <div id="umaring"></div>
+    </div>
+  </div>
 {{ end }}
