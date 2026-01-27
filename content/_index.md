@@ -34,8 +34,6 @@ Currently, I am pursuing my **Master’s in Computer Science at the University o
   - [GitHub](https://github.com/jerinthomas1404)
 
 ## 📊 Weekly Development Breakdown
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
 
 If you found my work interesting, consider **starring** some of my repositories or reaching out for a collaboration opportunity! 😊
 
