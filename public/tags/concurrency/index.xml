@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>concurrency on </title>
+    <link>https://14maverick04.github.io/tags/concurrency/</link>
+    <description>Recent content in concurrency on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Dec 2025 17:27:13 -0500</lastBuildDate><atom:link href="https://14maverick04.github.io/tags/concurrency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Livelock</title>
+      <link>https://14maverick04.github.io/note/livelock/</link>
+      <pubDate>Sat, 27 Dec 2025 17:27:13 -0500</pubDate>
+      
+      <guid>https://14maverick04.github.io/note/livelock/</guid>
+      
+        <description>Epilogue In the world of concurrency, deadlock and starvation are pretty famous.
+A deadlocked program is the one in which all the concurrent processes are waiting on on another.
+Starvation is any situation where a concurrent process cannot get all the resources it needs to perform work.
+One can easily verify whether a deadlock can arise based on Coffman Conditions which can help to detect, prevent, and correct deadlocks.
+Mutual exclusion Wait for condition No premption Circular wait Broadly speaking starvation is a scenario where one or more greedy concurrent process is unfairly preventing some one or more concurrent processes from completing a task.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
