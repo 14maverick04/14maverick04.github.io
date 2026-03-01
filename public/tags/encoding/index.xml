@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>encoding on </title>
+    <link>https://14maverick04.github.io/tags/encoding/</link>
+    <description>Recent content in encoding on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Mar 2024 13:20:09 -0400</lastBuildDate><atom:link href="https://14maverick04.github.io/tags/encoding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mysterious Unicode</title>
+      <link>https://14maverick04.github.io/note/mysterious-unicode/</link>
+      <pubDate>Mon, 04 Mar 2024 13:20:09 -0400</pubDate>
+      
+      <guid>https://14maverick04.github.io/note/mysterious-unicode/</guid>
+      
+        <description>Core Principles 1. Plain Text is Encoding-Dependent Text is not inherently “plain”; it is a sequence of bytes. The meaning of those bytes depends on the character encoding used. Assuming ASCII is universal is incorrect and unsafe. 2. Legacy Encoding Problems ASCII (7-bit) supported only basic English characters. Extended ranges (128–255) were reused differently in regional code pages (OEM, ANSI, etc.). Result: the same byte value could map to different characters depending on locale.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
