@@ -10,6 +10,7 @@ contentratio = '0.80'
 copyright = 'Jerin Thomas, 2020-{{ YEAR }}'
 description = '"Tryst with Curiosity"'
 doNotLoadAnimations = false
+favicon = '/favicon/'
 profilePicture = 'images/profile.jpg'
 mainSections = [""]
 customCss = ["css/styles.css"]
