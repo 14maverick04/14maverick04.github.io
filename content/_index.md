@@ -5,6 +5,7 @@ I'm a passionate Software Engineer with over 4 years of experience in developing
 Currently, I am pursuing my **Master’s in Computer Science at the University of Massachusetts Amherst**, further deepening my expertise in advanced computing systems and research.  
 
 ## 🚀 About Me
+- 💻 **Incoming SDE Intern @ Amazon Search** | Building high-scale, low-latency search infrastructure.
 - 🎓 Pursuing **M.S. in Computer Science at UMass Amherst**.
 - 💼 Previously worked as a Software Development Engineer 2 at **SellerApp**, where I led the development of advertising automation systems.
 - 🌱 Formerly worked at **Tata Consultancy Services**, optimizing infrastructure workflows and leading core projects.
