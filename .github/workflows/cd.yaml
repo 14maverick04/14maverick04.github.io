@@ -18,13 +18,28 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          submodules: true
           fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "0.108.0"
+
+      # --- Quarto: render .qmd -> .md before Hugo builds ---
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python deps for executable chunks
+        run: pip install jupyter
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render Quarto content
+        run: quarto render
+      # -----------------------------------------------------
 
       - name: Build site with Hugo
         run: hugo --minify --enableGitInfo
