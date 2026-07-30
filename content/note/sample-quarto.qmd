@@ -1,0 +1,36 @@
+---
+title: 'Sample Quarto Note'
+date: 2026-07-30T00:00:00-04:00
+draft: true
+image: '/images/profile.jpg'
+tags: ["quarto"]
+---
+
+This note demonstrates the Quarto → Hugo pipeline. It is a `draft` so it will
+not publish until `draft: false`. Delete this file once real `.qmd` content
+exists.
+
+## Authoring features
+
+::: {.callout-note}
+Callouts, cross-references, and citations come from Quarto and render as raw
+HTML — which is why `markup.goldmark.renderer.unsafe = true` is set in
+`config.toml`.
+:::
+
+Inline and display math via KaTeX:
+
+$$
+\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
+$$
+
+## Executable code
+
+The chunk below runs at `quarto render` time; its output is baked into the
+generated `.md` that Hugo consumes.
+
+```{python}
+#| label: demo
+import sys
+print(f"Rendered with Python {sys.version_info.major}.{sys.version_info.minor}")
+```

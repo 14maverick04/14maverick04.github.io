@@ -1,0 +1,12 @@
+project:
+  type: hugo
+
+# Re-run code only when the source .qmd changes (avoids needless
+# execution on every render). Delete _freeze/ to force a fresh run.
+execute:
+  freeze: auto
+
+format:
+  hugo-md:
+    code-fold: false
+    html-math-method: katex

@@ -4,6 +4,16 @@ theme = 'anatole'
 enableEmoji = true
 enableRobotsTXT = true
 
+# Don't let Hugo publish Quarto source files; Quarto still reads them.
+ignoreFiles = ['\.qmd$']
+
+# Quarto emits raw HTML (callouts, figures, math wrappers). Hugo's Goldmark
+# renderer strips raw HTML by default, so allow it through.
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
 author = 'Jerin Thomas'
 contentratio = '0.80'
@@ -17,6 +27,11 @@ customCss = ["css/styles.css"]
 indexDateFormat = "2006-01-02"
 singleDateFormat = "2006-01-02"
 title = 'Jerin Thomas'
+
+# Load KaTeX (via the theme's math.html partial) so Quarto's $$...$$ renders.
+[params.math]
+enable = true
+use = "katex"
 
 
 [[params.socialIcons]]
