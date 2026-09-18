@@ -32,7 +32,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install Python deps for executable chunks
-        run: pip install jupyter
+        run: pip install jupyter matplotlib
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
