@@ -35,7 +35,7 @@ jobs:
         run: pip install jupyter matplotlib
 
       - name: Setup Quarto
-        uses: quarto-dev/quarto-actions/setup@v3.2.1
+        uses: quarto-dev/quarto-actions/setup@v2.2.0
 
       - name: Render Quarto content
         run: quarto render
