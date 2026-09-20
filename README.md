@@ -26,6 +26,10 @@ hugo server -D          # -D includes drafts
 quarto preview
 ```
 
+Drafts show in both previews without `-D`, because
+`config/development/config.toml` turns them on for the local server. The
+production build in CI still leaves drafts out.
+
 Open the printed `http://localhost:<port>/` URL.
 
 ---
@@ -73,8 +77,10 @@ richer authoring. Quarto renders the `.qmd` (running any code) into a plain
 > time** (its output is baked into the page); there is no in-browser "Run"
 > button on the published site.
 
-1. Create a `.qmd` file under `content/note/`, e.g.
-   `content/note/My-Quarto-Note.qmd`. Use the same front matter as above.
+1. Create a folder for the note with an `index.qmd` inside, e.g.
+   `content/note/My-Quarto-Note/index.qmd`. Use the same front matter as above.
+   The folder (a Hugo page bundle) keeps generated figures next to the page so
+   their links work. Add the generated `index.md` to `.gitignore`.
 
 2. Add an executable code chunk with the `{language}` syntax and, optionally,
    a callout:
@@ -104,11 +110,15 @@ richer authoring. Quarto renders the `.qmd` (running any code) into a plain
    Edit the `.qmd` and save — Quarto re-executes the code and the browser
    refreshes with the new output.
 
-4. Build once (what CI does): `quarto render` produces a sibling `.md`, then
-   `hugo` builds the site.
+4. Build once (what CI does): `quarto render` produces an `index.md` (plus an
+   `index_files/` folder for figures) beside the `.qmd`, then `hugo` builds the
+   site.
 
-`content/note/sample-quarto.qmd` is a working reference for all three
-features (callout, math, Python). It's a `draft`, so delete it once you have
+Any Python package a chunk imports must be installed locally and added to the
+`pip install` step in `.github/workflows/cd.yaml`.
+
+`content/note/sample-quarto/index.qmd` is a working reference for callouts,
+math, Python output, and a cross-referenced matplotlib figure. It's a `draft`, so delete it once you have
 real content.
 
 ---

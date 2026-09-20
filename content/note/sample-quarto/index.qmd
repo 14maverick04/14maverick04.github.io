@@ -34,3 +34,22 @@ generated `.md` that Hugo consumes.
 import sys
 print(f"Rendered with Python {sys.version_info.major}.{sys.version_info.minor}")
 ```
+
+## Figures
+
+A chunk that draws a plot becomes a figure. The `fig-` label makes it
+referenceable: @fig-squares is numbered and linked automatically.
+`echo: false` hides the code so only the figure shows.
+
+```{python}
+#| label: fig-squares
+#| fig-cap: "Squares of 1 to 10"
+#| echo: false
+import matplotlib.pyplot as plt
+
+x = range(1, 11)
+plt.plot(x, [n**2 for n in x], marker="o")
+plt.xlabel("n")
+plt.ylabel("n²")
+plt.show()
+```

@@ -1,0 +1,3 @@
+# Only applies to `hugo server` / `quarto preview` (the development
+# environment). Production builds (`hugo` in CI) still skip drafts.
+buildDrafts = true
