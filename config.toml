@@ -16,7 +16,7 @@ ignoreFiles = ['\.qmd$']
 
 [params]
 author = 'Jerin Thomas'
-contentratio = '0.80'
+contentratio = '0.70'
 copyright = 'Jerin Thomas, 2020-{{ YEAR }}'
 description = 'Tryst with Curiosity'
 reversepagetitle = true

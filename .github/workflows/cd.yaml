@@ -24,6 +24,7 @@ jobs:
         uses: peaceiris/actions-hugo@v3.2.1
         with:
           hugo-version: "0.108.0"
+          extended: true
 
       # --- Quarto: render .qmd -> .md before Hugo builds ---
       - name: Setup Python
