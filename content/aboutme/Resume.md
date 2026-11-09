@@ -3,7 +3,7 @@ title: "Resume"
 date: 2025-09-16
 lastmod: 2025-09-16
 draft: false
-description: "Public resume"
+description: "Resume of Jerin Thomas, a software engineer working across backend, distributed systems and agentic AI."
 ---
 
 [Click here to view/download my resume](https://drive.google.com/file/d/1XakBzM2R6Ily1OMu3tLyl_oril5C8vRC/view?usp=sharing)
