@@ -3,7 +3,7 @@ title: 'Mysterious Unicode'
 description: "Why plain text isn't really plain: character encodings, code pages, mojibake, and how Unicode code points relate to UTF-8 and UTF-16."
 date: 2024-03-04T13:20:09-04:00
 draft: false
-image: '/images/profile.jpg'
+image: '/images/og-card.jpg'
 tags: ["encoding"]
 ---
 

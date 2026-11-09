@@ -3,7 +3,7 @@ title : 'Livelock'
 description: "What livelock is, how it relates to deadlock and starvation, and a Go example of two goroutines stuck in a narrow hallway."
 date : 2025-12-27T17:27:13-05:00
 draft : false
-image: '/images/profile.jpg'
+image: '/images/og-card.jpg'
 tags: ["concurrency"]
 ---
 

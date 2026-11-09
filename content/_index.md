@@ -1,6 +1,6 @@
 ---
 title: "Jerin Thomas | Software Engineer"
-image: '/images/profile.jpg'
+image: '/images/og-card.jpg'
 description: "Software engineer working across backend, distributed systems and agentic AI. M.S. in Computer Science at UMass Amherst, graduating May 2027."
 ---
 
