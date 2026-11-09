@@ -1,7 +1,13 @@
+---
+title: "Jerin Thomas | Software Engineer"
+image: '/images/profile.jpg'
+description: "Software engineer working across backend, distributed systems and agentic AI. M.S. in Computer Science at UMass Amherst, graduating May 2027."
+---
+
 # Jerin Thomas
 
-Software engineer building backend and distributed systems. I'm doing a
-Master's in Computer Science at UMass Amherst (4.0 GPA), graduating May 2027
+Software engineer working across backend, distributed systems and agentic AI.
+I'm doing a Master's in Computer Science at UMass Amherst (4.0 GPA), graduating May 2027
 and open to full-time roles. [Resume](https://drive.google.com/file/d/1XakBzM2R6Ily1OMu3tLyl_oril5C8vRC/view?usp=sharing).
 
 - **Amazon Search, summer ’26:** Rebuilt Apache Lucene benchmarking as an

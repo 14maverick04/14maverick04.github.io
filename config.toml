@@ -19,6 +19,9 @@ author = 'Jerin Thomas'
 contentratio = '0.80'
 copyright = 'Jerin Thomas, 2020-{{ YEAR }}'
 description = 'Tryst with Curiosity'
+reversepagetitle = true
+jobTitle = 'Software Engineer'
+affiliation = 'University of Massachusetts Amherst'
 doNotLoadAnimations = true
 favicon = '/favicon/'
 profilePicture = 'images/profile.jpg'
@@ -37,7 +40,7 @@ use = "katex"
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "LinkedIn"
-url = "https://linkedin.com/in/jerinthomas1404"
+url = "https://www.linkedin.com/in/jerinthomas1404"
 
 [[params.socialIcons]]
 icon = "fab fa-github"

@@ -1,15 +1,23 @@
 {{ if .IsHome -}}
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "WebSite",
-      "name": {{ .Site.Title | jsonify | safeJS }},
-      "url": "{{ .Site.BaseURL }}",
-      "description": "{{ .Site.Params.description }}",
-      "thumbnailUrl": "{{ .Site.Params.Logo | absURL }}",
-      "license": "{{ .Site.Params.Copyright }}"
-    }
-  </script>
+  {{ $home := "/" | absURL }}
+  {{ $sameAs := slice }}
+  {{ range .Site.Params.socialIcons }}
+    {{ if hasPrefix .url "http" }}
+      {{ $sameAs = $sameAs | append .url }}
+    {{ end }}
+  {{ end }}
+  {{ $website := dict "@type" "WebSite" "name" .Site.Params.title "url" $home }}
+  {{ $person := dict
+    "@type" "Person"
+    "name" .Site.Params.author
+    "url" $home
+    "image" (.Site.Params.profilePicture | absURL)
+    "jobTitle" .Site.Params.jobTitle
+    "affiliation" .Site.Params.affiliation
+    "sameAs" $sameAs
+  }}
+  {{ $schema := dict "@context" "https://schema.org" "@graph" (slice $website $person) }}
+  <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
 {{ else if .IsPage }}
   {{ $author :=  or (.Params.author) (.Site.Params.author) }}
   {{ $favicon := .Site.Params.favicon | absURL }}
