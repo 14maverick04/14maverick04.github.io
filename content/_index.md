@@ -10,6 +10,10 @@ Software engineer working across backend, distributed systems and agentic AI.
 I'm doing a Master's in Computer Science at UMass Amherst (4.0 GPA), graduating May 2027
 and open to full-time roles. [Resume](https://drive.google.com/file/d/1XakBzM2R6Ily1OMu3tLyl_oril5C8vRC/view?usp=sharing).
 
+- **Hackathon judge & mentor:** Judge and technical mentor at
+  [HackUMass XIV](https://hackumass.com) (Nov 13–15, 2026). Previously a
+  technical mentor at [LA Hacks 2026](https://lahacks.com) (1,400+ students at
+  UCLA's Pauley Pavilion) and HackUMass XIII (800+ hackers at UMass Amherst).
 - **Amazon Search, summer ’26:** Rebuilt Apache Lucene benchmarking as an
   automated AWS workflow, eliminating about 84 hours of sequential runtime per
   refresh, and upstreamed a fix to Lucene's benchmarking suite.
