@@ -69,6 +69,12 @@ url = "mailto:jerinthomas1498@gmail.com"
   url = "/note"
 
   [[menu.main]]
+  name = "Marginalia"
+  identifier = "marginalia"
+  weight = 350
+  url = "/marginalia/"
+
+  [[menu.main]]
   name = "About Me"
   identifier = "aboutme"
   weight = 300
